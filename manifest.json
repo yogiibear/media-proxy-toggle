@@ -3,12 +3,16 @@
 
   "name": "Media Enabler",
   "description": "This extension gives a workaround to access mediahint proxy settings.",
-  "version": "1.0",
+  "version": "1.1",
 
   "permissions": [
     "proxy"
   ],
   "background": {
-    "scripts": ["Background.js"]
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "Media Enabler"
   }
 }

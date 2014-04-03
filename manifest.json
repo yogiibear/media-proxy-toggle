@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Media Enabler",
-  "description": "This extension gives on off proxy settings.",
+  "description": "This extension gives a workaround to access mediahint proxy settings.",
   "version": "1.0",
 
   "permissions": [

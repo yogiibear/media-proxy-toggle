@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Media Enabler",
+  "description": "This extension gives on off proxy settings.",
+  "version": "1.0",
+
+  "permissions": [
+    "proxy"
+  ],
+  "background": {
+    "scripts": ["Background.js"]
+  }
+}
